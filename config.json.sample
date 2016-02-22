@@ -1,0 +1,10 @@
+{
+  "fitbit": {
+    "clientID":     "getyourown",
+    "clientSecret": "getyourown"
+  },
+  "runkeeper": {
+    "clientID":     "getyourown",
+    "clientSecret": "getyourown"
+  }
+}
