@@ -1,10 +1,10 @@
 'use strict'
 
-const fs             = require('fs')
-const aawait         = require('asyncawait/await')
-const aasync         = require('asyncawait/async')
-const express        = require('express')
-
+const fs                = require('fs')
+const aawait            = require('asyncawait/await')
+const aasync            = require('asyncawait/async')
+const express           = require('express')
+const exphbs            = require('express-handlebars')
 const cookieSession     = require('cookie-session')
 const cookieParser      = require('cookie-parser')
 const passport          = require('passport')
@@ -12,6 +12,7 @@ const FitbitStrategy    = require('passport-fitbit-oauth2').FitbitOAuth2Strategy
 const RunKeeperStrategy = require('passport-runkeeper').Strategy
 const uuid              = require('node-uuid')
 const rp                = require('request-promise')
+const moment            = require('moment')
 
 const config = require('./config.json')
 
@@ -46,20 +47,17 @@ const addAccount  = (profile, userId, accessToken, refreshToken) => {
 
   fs.writeFileSync('data/accounts.json', JSON.stringify(accounts))
 }
-
+const updateAccount = (profile, accessToken, refreshToken) => {
+  accounts[profile.provider][profile.id].accessToken = accessToken
+  accounts[profile.provider][profile.id].refreshToken = refreshToken
+  fs.writeFileSync('data/accounts.json', JSON.stringify(accounts))
+}
 
 const app = express()
+app.engine('.hbs', exphbs({defaultLayout: 'main', extname: '.hbs'}))
+app.set('view engine', '.hbs')
 app.use(cookieParser())
-//app.use(session({
-//  secret: 'asdfr78hyqu',
-//  resave: false,
-//  saveUninitialized: true,
-//}))
-app.use(cookieSession({
-  name: 'session',
-  secret: 'af092mnvaz9'
-}))
-
+app.use(cookieSession({name: 'session', secret: 'af092mnvaz9'}))
 app.use(passport.initialize())
 app.use(passport.session())
 
@@ -69,6 +67,7 @@ const onAuthenticated = (req, accessToken, refreshToken, profile, done) => {
   if (req.user) {
     // Connect the new account to logged in user.
     setAccount(req.user.id, profile)
+    updateAccount(profile, accessToken, refreshToken)
     done(null, req.user)
   }
   else {
@@ -150,20 +149,63 @@ app.get('/', (req, res) => {
 
 const getUrl = (url, token, accept) => {
   try {
+    const headers = {'Authorization': 'Bearer ' + token}
+    if (accept) headers.Accept = accept
+
     console.log('URL:', url)
     const activities = aawait(rp({
       uri: url,
       json: true,
-      headers: {
-        'Authorization': 'Bearer ' + token,
-        'Accept': accept,
-      },
+      headers: headers,
     }))
     console.log('Activities:', activities)
     return activities
   }
   catch (err) {
-    console.log(err)
+    console.log(err.response.body ? err.response.body : err)
+    return null
+  }
+}
+
+const getFitbit = (url, account) => {
+  console.log('Getting Fitbit data from', url)
+  try {
+    const activities = aawait(rp({
+      uri: url,
+      json: true,
+      headers: {'Authorization': 'Bearer ' + account.accessToken},
+    }))
+    console.log('Activities:', activities)
+    return activities
+  }
+  catch (err) {
+    console.log(err.name, err.statusCode, err.message, err.error)
+
+    if (err.statusCode === 401 && err.error.errors[0].errorType === 'expired_token') {
+      try {
+        const basic = new Buffer(config.fitbit.clientID + ':' + config.fitbit.clientSecret)
+              .toString('base64')
+
+        const newAccessToken = aawait(rp({
+          method: 'POST',
+          uri: 'https://api.fitbit.com/oauth2/token',
+          headers: {
+            'Authorization': 'Basic ' + basic,
+            'Content-Type':  'application/x-www-form-urlencoded',
+          },
+          form: {
+            grant_type: 'refresh_token',
+            refresh_token: account.refreshToken,
+          },
+        }))
+        console.log(newAccessToken)
+      }
+      catch (err2) {
+        console.log(err2.name, err2.statusCode, err2.message, err2.error)
+        // Still wrong?  Redirect client.
+        throw err2
+      }
+    }
     return null
   }
 }
@@ -180,18 +222,108 @@ app.get('/runkeeper/:type', aasync((req, res) => {
                       'application/vnd.com.runkeeper.FitnessActivityFeed+json')
   //'application/vnd.com.runkeeper.StrengthTrainingActivity+json')
 
+  res.set({'content-type': 'text/html; charset=utf-8'})
   res.write('<html><body>')
 
   res.write('<table>')
 
   for (let i = 0; i < data.items.length; i++) {
-    res.write('<tr><td><a href="' + data.items[i].uri + '">' + data.items[i].start_time + '</a></td></tr>')
+    res.write(
+      '<tr><td><a href="' + data.items[i].uri + '">' + data.items[i].start_time + '</a></td>' +
+        '<td><a href="/runkeeper/activity/' + encodeURIComponent(data.items[i].uri) + '/♥">Add ♥</a>' +
+      '</tr>'
+    )
   }
   res.write('</table>')
     //res.write(JSON.stringify(data))
   res.write('</body></html>')
 
   res.end()
+}))
+
+app.get('/runkeeper/activity/:uri/%E2%99%A5', aasync((req, res) => {
+  console.log('Got uri:', req.param('uri'))
+
+  const data = getUrl(
+    'https://api.runkeeper.com' + req.param('uri'),
+    accounts.runkeeper[req.user.accounts.runkeeper].accessToken,
+    'application/vnd.com.runkeeper.FitnessActivity+json'
+  )
+
+  res.render('activity', data)
+}))
+
+app.post('/runkeeper/activity/:uri/%E2%99%A5', aasync((req, res) => {
+  console.log('Attempting to add heartrate data to', req.param('uri'))
+
+  const runkeeperUri = 'https://api.runkeeper.com' + req.param('uri')
+  const runkeeperAccess = accounts.runkeeper[req.user.accounts.runkeeper].accessToken
+
+  const activityData = getUrl(
+    runkeeperUri, runkeeperAccess, 'application/vnd.com.runkeeper.FitnessActivity+json'
+  )
+  const start = moment(activityData.start_time)
+  //start.add('1', 'h') // Figure out activity's local timezone…
+  console.log('Got date', start.format())
+
+  // Hope this is not a timezone shift over the date limit.
+  const date = start.format('YYYY-MM-DD')
+  const startTime = start.format('HH:mm')
+
+  const end = moment(start) // Clone starttime.
+  end.add(activityData.duration + 59, 's') // We need it to round up to closes higher minute.
+  const endTime = end.format('HH:mm')
+  const userFitbitId = req.user.accounts.fitbit
+
+  const heartrateUrl = 'https://api.fitbit.com/1/user/' + userFitbitId +
+        '/activities/heart/date/' + date + '/1d/1sec/time/' +
+        startTime + '/' + endTime + '.json'
+  const data = getFitbit(heartrateUrl, accounts.fitbit[req.user.accounts.fitbit])
+
+  const heartrateData = []
+
+  data['activities-heart-intraday'].dataset.forEach(dataset => {
+    const heartTime = moment(dataset.time, 'HH:mm:ss')
+    heartTime.year(start.year())
+    heartTime.month(start.month())
+    heartTime.date(start.date())
+
+    console.log(start.format(), heartTime.format())
+    const position = heartTime.diff(start, 'seconds')
+    console.log('Dataset at', position, dataset)
+
+    // Make sure activity has started…
+    if (position < 0 || position > activityData.duration - 1) return
+
+    heartrateData.push({
+      heart_rate: dataset.value,
+      timestamp: position,
+    })
+  })
+
+  //res.json(heartrateData)
+  try {
+    console.log('PUT ' + runkeeperUri, {heart_rate: heartrateData})
+    //res.json({heart_rate: heartrateData})
+    const response = aawait(rp({
+      uri:    runkeeperUri,
+      method: 'PUT',
+      json:   true,
+      body:   {heart_rate: heartrateData},
+      headers: {
+        Authorization: 'Bearer ' + runkeeperAccess,
+        'Content-Type': 'application/vnd.com.runkeeper.FitnessActivity+json'
+      },
+    }))
+
+    res.json(response)
+  }
+  catch (err) {
+    res.json(err)
+
+    //res.json(heartrateData)
+  }
+
 }))
 
 app.get(

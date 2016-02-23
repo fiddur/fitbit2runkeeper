@@ -1,0 +1,16 @@
+Secondary type: <a href="{{activity}}">{{secondary_type}}</a><br/>
+
+<h3>Current heartrate data</h3>
+
+<table>
+  {{#heart_rate}}
+    <tr><td>{{timestamp}}</td><td>{{heart_rate}}</td></tr>
+  {{/heart_rate}}
+</table>
+
+
+<h3>Add some sugar</h3>
+
+<form method="post">
+  <input type="submit" value="Add heartrate data">
+</form>
