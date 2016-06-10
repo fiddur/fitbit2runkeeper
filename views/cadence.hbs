@@ -1,0 +1,27 @@
+
+<canvas id="myChart"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.1.1/Chart.min.js"></script>
+<script>
+  var ctx = document.getElementById("myChart").getContext("2d")
+  ctx.canvas.width  = window.innerWidth
+  ctx.canvas.height = window.innerHeight
+
+  var data = {
+    labels: {{{json times}}},
+    datasets: [
+      {
+          label: "My First dataset",
+          fillColor: "rgba(220,220,220,0.2)",
+          strokeColor: "rgba(220,220,220,1)",
+          pointColor: "rgba(220,220,220,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(220,220,220,1)",
+          data: {{{json steps}}}
+      }
+    ]
+  }
+
+  var myLineChart = new Chart(ctx).Line(data, {})
+</script>

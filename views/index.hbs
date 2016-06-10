@@ -1,0 +1,18 @@
+{{#if user}}
+  Welcome back {{user.id}}!
+{{else}}
+  Please login.
+{{/if}}
+
+
+<h3>Connect/renew accounts</h3>
+<ul>
+  <li><a href="/?auth=fitbit">FitBit</a></li>
+  <li><a href="/auth/runkeeper">Connect RunKeeper</a></li>
+</ul>
+
+<h3>Start/renew subscription</h3>
+
+<ul>
+  <li><a href="/subscribe">Fitbit activities</a></li>
+</ul>

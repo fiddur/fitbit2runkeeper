@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.core.min.js"></script>
+    <script src="jwt-decode.js"></script>
+    <script src="cadence.js"></script>
+    <style>
+      .hidden {display: none}
+    </style>
+  </head>
+  <body onload="onLoad()">
+    <div id="login">
+      <a onclick="awaitLogin()" href="https://webtask.it.auth0.com/api/run/wt-fredrik-liljegren_org-0/authenticateFitbit" target="_blank">Login…</a>
+    </div>
+
+    <div id="user" class="hidden">
+      Welcome <span id="username"></span>!
+    </div>
+  </body>
+</html>

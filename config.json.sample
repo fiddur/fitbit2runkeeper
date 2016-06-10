@@ -6,5 +6,7 @@
   "runkeeper": {
     "clientID":     "getyourown",
     "clientSecret": "getyourown"
-  }
+  },
+  "mongodb": "mongodb://get:yourown@at.mlab.com:15740/foobar",
+  "cookieSecret": "somethingSecret"
 }
