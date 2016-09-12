@@ -1,0 +1,17 @@
+<h2>List recent fitbit activities</h2>
+
+<p>
+  Steps {{activities.0.steps}}
+</p>
+
+<table>
+  {{#activities}}
+    <tr>
+      <td><a href="/fitbit/cp/{{logId}}">{{logId}}</a></td>
+      <td>{{startTime}}</td>
+      <td>{{logType}}</td>
+      <td>{{activityName}}</td>
+      <td><a href="/fitbit/tcx/{{logId}}">{{tcxLink}}</a></td>
+    </tr>
+  {{/activities}}
+</table>

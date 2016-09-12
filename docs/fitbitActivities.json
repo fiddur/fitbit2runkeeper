@@ -1,0 +1,4790 @@
+{
+  "categories": [
+    {
+      "name": "Dancing",
+      "id": 0,
+      "activities": [
+        {
+          "name": "Aerobic step",
+          "id": 90004,
+          "hasSpeed": false,
+          "activityLevels": [
+            {
+              "name": "6 - 8 inch step",
+              "minSpeedMPH": -1,
+              "mets": 8.5,
+              "maxSpeedMPH": -1,
+              "id": 3016
+            },
+            {
+              "name": "10 - 12 inch step",
+              "minSpeedMPH": -1,
+              "mets": 10,
+              "maxSpeedMPH": -1,
+              "id": 3017
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Aerobic, general",
+          "mets": 6.5,
+          "id": 3015,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Aerobics",
+          "id": 90005,
+          "hasSpeed": false,
+          "activityLevels": [
+            {
+              "name": "low impact",
+              "minSpeedMPH": -1,
+              "mets": 5,
+              "maxSpeedMPH": -1,
+              "id": 3020
+            },
+            {
+              "name": "high impact",
+              "minSpeedMPH": -1,
+              "mets": 7,
+              "maxSpeedMPH": -1,
+              "id": 3021
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Anishinaabe Jingle Dancing or other traditional American Indian dancing",
+          "mets": 5.5,
+          "id": 3050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Ballet",
+          "mets": 4.800000190734863,
+          "id": 3010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Ballroom, slow (e.g. waltz, foxtrot, slow dancing), samba, tango, 19th C, mambo, chacha",
+          "mets": 3,
+          "id": 3040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Dancing",
+          "mets": 5,
+          "id": 3031,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "General, Greek, Middle Eastern, hula, flamenco, belly, swing",
+          "mets": 4.5,
+          "id": 3025,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Zumba",
+          "mets": 5.5,
+          "id": 56001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Fishing and Hunting",
+      "id": 1,
+      "activities": [
+        {
+          "name": "Digging worms, with shovel",
+          "mets": 4,
+          "id": 4010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Fishing",
+          "mets": 3,
+          "id": 4001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Fishing from boat, sitting",
+          "mets": 2.5,
+          "id": 4030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Fishing from river bank and walking",
+          "mets": 4,
+          "id": 4020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Fishing from river bank, standing",
+          "mets": 3.5,
+          "id": 4040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Fishing in stream, in waders",
+          "mets": 6,
+          "id": 4050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Fishing, ice, sitting",
+          "mets": 2,
+          "id": 4060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hunting",
+          "mets": 5,
+          "id": 4100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hunting, bow and arrow or crossbow",
+          "mets": 2.5,
+          "id": 4070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hunting, deer, elk, large game",
+          "mets": 6,
+          "id": 4080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hunting, duck, wading",
+          "mets": 2.5,
+          "id": 4090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hunting, pheasants or grouse",
+          "mets": 6,
+          "id": 4110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hunting, rabbit, squirrel, prairie chick, raccoon, small game",
+          "mets": 5,
+          "id": 4120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Shooting",
+          "mets": 2.5,
+          "id": 4130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Home activities",
+      "id": 2,
+      "activities": [
+        {
+          "name": "Building a fire inside",
+          "mets": 2.5,
+          "id": 5149,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carpet sweeping, sweeping floors",
+          "mets": 3.299999952316284,
+          "id": 5010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carrying groceries upstairs",
+          "mets": 7.5,
+          "id": 5056,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carrying small children",
+          "mets": 3,
+          "id": 5181,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Change light bulb",
+          "mets": 2,
+          "id": 5161,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Child care: sitting\/kneeling - dressing, bathing, grooming, feeding, occasional lifting of child-light effort, general",
+          "mets": 2.5,
+          "id": 5185,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Child care: standing - dressing, bathing, grooming, feeding, occasional lifting of child-light effort",
+          "mets": 3,
+          "id": 5186,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cleaning",
+          "mets": 3,
+          "id": 5020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cleaning, house or cabin, general",
+          "mets": 3,
+          "id": 5030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cleaning, light (dusting, straightening up, changing linen, carrying out trash)",
+          "mets": 2.5,
+          "id": 5040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Closing windows and locking doors",
+          "mets": 3,
+          "id": 5166,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cooking Indian bread on an outside stove",
+          "mets": 3,
+          "id": 5057,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cooking or food preparation",
+          "mets": 2.5,
+          "id": 5052,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Elder care, disabled adult, only active periods",
+          "mets": 4,
+          "id": 5187,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Feeding animals",
+          "mets": 2.5,
+          "id": 5053,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Food shopping with or without a grocery cart, standing or walking",
+          "mets": 2.299999952316284,
+          "id": 5060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Household Chores",
+          "id": 90006,
+          "hasSpeed": false,
+          "activityLevels": [
+            {
+              "name": "light effort",
+              "minSpeedMPH": -1,
+              "mets": 2.5,
+              "maxSpeedMPH": -1,
+              "id": 5025
+            },
+            {
+              "name": "moderate effort",
+              "minSpeedMPH": -1,
+              "mets": 3.5,
+              "maxSpeedMPH": -1,
+              "id": 5026
+            },
+            {
+              "name": "vigorous effort",
+              "minSpeedMPH": -1,
+              "mets": 4,
+              "maxSpeedMPH": -1,
+              "id": 5027
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Ironing",
+          "mets": 2.299999952316284,
+          "id": 5070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Knitting, sewing",
+          "mets": 1.5,
+          "id": 5080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Laundry, fold or hang clothes, put clothes in washer or dryer, packing suitcase",
+          "mets": 2,
+          "id": 5090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Loading \/unloading a car",
+          "mets": 3,
+          "id": 17031,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Making a bed",
+          "mets": 2,
+          "id": 5100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Maple syruping\/sugar bushing (including carrying buckets, carrying wood)",
+          "mets": 5,
+          "id": 5110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Mopping",
+          "mets": 3.5,
+          "id": 5021,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Moving furniture, household items, carrying boxes",
+          "mets": 6,
+          "id": 5120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Moving household items upstairs, carrying boxes or furniture",
+          "mets": 9,
+          "id": 5150,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Pumping gas, change light bulb, etc.)",
+          "mets": 2,
+          "id": 5160,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Putting away clothes, gathering clothes to pack, putting away laundry",
+          "mets": 2.299999952316284,
+          "id": 5095,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Putting away groceries (e.g. carrying groceries, shopping without a grocery cart), carrying packages",
+          "mets": 2.5,
+          "id": 5055,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Putting away household items - moderate effort",
+          "mets": 3,
+          "id": 5147,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Readying to leave",
+          "mets": 3,
+          "id": 5165,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Scrubbing floors, on hands and knees, scrubbing bathroom, bathtub",
+          "mets": 3.799999952316284,
+          "id": 5130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Serving food, setting table",
+          "mets": 2.5,
+          "id": 5051,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Shopping",
+          "mets": 2.299999952316284,
+          "id": 5065,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sit, playing with animals, light, only active periods",
+          "mets": 2.5,
+          "id": 5190,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - playing with child(ren) - light, only active periods",
+          "mets": 2.5,
+          "id": 5170,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Stand, playing with animals, light, only active periods",
+          "mets": 2.799999952316284,
+          "id": 5191,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - bathing dog",
+          "mets": 3.5,
+          "id": 5195,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - packing\/unpacking boxes, occasional lifting of household items light - moderate effort",
+          "mets": 3.5,
+          "id": 5146,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - playing with child(ren) - light, only active periods",
+          "mets": 2.799999952316284,
+          "id": 5171,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sweeping garage, sidewalk or outside of house",
+          "mets": 4,
+          "id": 5140,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Vacuuming",
+          "mets": 3.5,
+          "id": 5043,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walk\/run - playing with child(ren) - moderate, only active periods",
+          "mets": 4,
+          "id": 5175,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walk\/run - playing with child(ren) - vigorous, only active periods",
+          "mets": 5,
+          "id": 5180,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walk\/run, playing with animals, light, only active periods",
+          "mets": 2.799999952316284,
+          "id": 5192,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walk\/run, playing with animals, moderate, only active periods",
+          "mets": 4,
+          "id": 5193,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walk\/run, playing with animals, vigorous, only active periods",
+          "mets": 5,
+          "id": 5194,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Washing dishes - standing or in general (not broken into stand\/walk components)",
+          "mets": 2.299999952316284,
+          "id": 5041,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Washing dishes; clearing dishes from table - walking",
+          "mets": 2.5,
+          "id": 5042,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Watering plants",
+          "mets": 2.5,
+          "id": 5148,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wrapping presents",
+          "mets": 1.5,
+          "id": 5081,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Home repair",
+      "id": 3,
+      "activities": [
+        {
+          "name": "Airplane repair",
+          "mets": 3,
+          "id": 6010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Automobile body work",
+          "mets": 4,
+          "id": 6020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Automobile repair",
+          "mets": 3,
+          "id": 6030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carpentry, finishing or refinishing cabinets or furniture",
+          "mets": 4.5,
+          "id": 6060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carpentry, general, workshop",
+          "mets": 3,
+          "id": 6040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carpentry, outside house, installing rain gutters, building a fence",
+          "mets": 6,
+          "id": 6050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carpentry, sawing hardwood",
+          "mets": 7.5,
+          "id": 6070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Caulking, chinking log cabin",
+          "mets": 5,
+          "id": 6080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Caulking, except log cabin",
+          "mets": 4.5,
+          "id": 6090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cleaning gutters",
+          "mets": 5,
+          "id": 6100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Excavating garage",
+          "mets": 5,
+          "id": 6110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hanging storm windows",
+          "mets": 5,
+          "id": 6120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Laying or removing carpet",
+          "mets": 4.5,
+          "id": 6130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Laying tile or linoleum, repairing appliances",
+          "mets": 4.5,
+          "id": 6140,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Painting",
+          "mets": 4.5,
+          "id": 6165,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Painting, outside home",
+          "mets": 5,
+          "id": 6150,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Painting, papering, plastering, scraping, inside house, hanging sheet rock, remodeling",
+          "mets": 3,
+          "id": 6160,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Put on and removal of tarp - sailboat",
+          "mets": 3,
+          "id": 6170,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Roofing",
+          "mets": 6,
+          "id": 6180,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sanding floors with a power sander",
+          "mets": 4.5,
+          "id": 6190,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Scraping and painting sailboat or powerboat",
+          "mets": 4.5,
+          "id": 6200,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Spreading dirt with a shovel",
+          "mets": 5,
+          "id": 6210,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Washing and waxing hull of sailboat, car, powerboat, airplane",
+          "mets": 4.5,
+          "id": 6220,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Washing fence, painting fence",
+          "mets": 4.5,
+          "id": 6230,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wiring, plumbing",
+          "mets": 3,
+          "id": 6240,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Lawn and garden",
+      "id": 5,
+      "activities": [
+        {
+          "name": "Carrying, loading or stacking wood, loading\/unloading or carrying lumber",
+          "mets": 5,
+          "id": 8010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Chopping wood, splitting logs",
+          "mets": 6,
+          "id": 8020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Clearing land, hauling branches, wheelbarrow chores",
+          "mets": 5,
+          "id": 8030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Digging sandbox",
+          "mets": 5,
+          "id": 8040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Digging, spading, filling garden, composting",
+          "mets": 5,
+          "id": 8050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Gardening",
+          "mets": 4,
+          "id": 8245,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Gardening with heavy power tools, tilling a garden, chain saw",
+          "mets": 6,
+          "id": 8060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Implied walking\/standing -picking up yard, light, picking flowers or vegetables",
+          "mets": 3,
+          "id": 8250,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Laying crushed rock",
+          "mets": 5,
+          "id": 8080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Laying sod",
+          "mets": 5,
+          "id": 8090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Mowing lawn",
+          "mets": 5.5,
+          "id": 8095,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Mowing lawn, riding mower",
+          "mets": 2.5,
+          "id": 8100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Mowing lawn, walk, hand mower",
+          "mets": 6,
+          "id": 8110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Mowing lawn, walk, power mower",
+          "mets": 5.5,
+          "id": 8120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Operating snow blower, walking",
+          "mets": 4.5,
+          "id": 8130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Picking fruit off trees, picking fruits\/vegetables, moderate effort",
+          "mets": 3,
+          "id": 8246,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Planting seedlings, shrubs",
+          "mets": 4.5,
+          "id": 8140,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Planting trees",
+          "mets": 4.5,
+          "id": 8150,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Raking lawn",
+          "mets": 4.300000190734863,
+          "id": 8160,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Raking roof with snow rake",
+          "mets": 4,
+          "id": 8170,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Riding snow blower",
+          "mets": 3,
+          "id": 8180,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sacking grass, leaves",
+          "mets": 4,
+          "id": 8190,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Shoveling snow, by hand",
+          "mets": 6,
+          "id": 8200,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Trimming shrubs or trees, manual cutter",
+          "mets": 4.5,
+          "id": 8210,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Trimming shrubs or trees, power cutter, using leaf blower, edger",
+          "mets": 3.5,
+          "id": 8215,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walking, applying fertilizer or seeding a lawn",
+          "mets": 2.5,
+          "id": 8220,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walking, gathering gardening tools",
+          "mets": 3,
+          "id": 8251,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Watering lawn or garden, standing or walking",
+          "mets": 1.5,
+          "id": 8230,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Weeding, cultivating garden",
+          "mets": 4.5,
+          "id": 8240,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Leisure and inactivity",
+      "id": 4,
+      "activities": [
+        {
+          "name": "Lying quietly and watching television",
+          "mets": 1,
+          "id": 7010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Lying quietly, doing nothing, lying in bed awake, listening to music (not talking or reading)",
+          "mets": 1,
+          "id": 7011,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Meditating",
+          "mets": 1,
+          "id": 7075,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Reclining - reading",
+          "mets": 1,
+          "id": 7070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Reclining - talking or talking on phone",
+          "mets": 1,
+          "id": 7060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Reclining - writing",
+          "mets": 1,
+          "id": 7050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting quietly and watching television",
+          "mets": 1,
+          "id": 7020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting quietly, sitting smoking, listening to music (not talking or reading), watching a movie in a theater",
+          "mets": 1,
+          "id": 7021,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sleeping",
+          "mets": 0.8999999761581421,
+          "id": 7030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing quietly (standing in a line)",
+          "mets": 1.2000000476837158,
+          "id": 7040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "id": 6,
+      "activities": [
+        {
+          "name": "Camping involving standing, walking, sitting, light-to-moderate effort",
+          "mets": 2.5,
+          "id": 9110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Retreat\/family reunion activities involving sitting, relaxing, talking, eating",
+          "mets": 1.5,
+          "id": 9100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - arts and crafts, light effort",
+          "mets": 1.5,
+          "id": 9075,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - in class, general, including note-taking or class discussion",
+          "mets": 1.7999999523162842,
+          "id": 9065,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - reading, book, newspaper, etc.",
+          "mets": 1.2999999523162842,
+          "id": 9030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - studying, general, including reading and\/or writing",
+          "mets": 1.7999999523162842,
+          "id": 9060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - talking or talking on the phone",
+          "mets": 1.5,
+          "id": 9055,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - writing, desk work, typing",
+          "mets": 1.7999999523162842,
+          "id": 9040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting -arts and crafts, moderate effort",
+          "mets": 2,
+          "id": 9080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting -card playing, playing board games",
+          "mets": 1.5,
+          "id": 9010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting at a sporting event, spectator",
+          "mets": 1.5,
+          "id": 9115,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - arts and crafts, light effort",
+          "mets": 1.7999999523162842,
+          "id": 9085,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - arts and crafts, moderate effort",
+          "mets": 3,
+          "id": 9090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - arts and crafts, vigorous effort",
+          "mets": 3.5,
+          "id": 9095,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - miscellaneous",
+          "mets": 2,
+          "id": 9071,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - reading",
+          "mets": 1.7999999523162842,
+          "id": 9070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - talking or talking on the phone",
+          "mets": 1.7999999523162842,
+          "id": 9050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing -drawing (writing), casino gambling, duplicating machine",
+          "mets": 2.299999952316284,
+          "id": 9020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Touring\/traveling\/vacation involving walking and riding",
+          "mets": 2,
+          "id": 9105,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Music playing",
+      "id": 7,
+      "activities": [
+        {
+          "name": "Accordion",
+          "mets": 1.7999999523162842,
+          "id": 10010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cello",
+          "mets": 2,
+          "id": 10020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Conducting",
+          "mets": 2.5,
+          "id": 10030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Drums",
+          "mets": 4,
+          "id": 10040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Flute (sitting)",
+          "mets": 2,
+          "id": 10050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Guitar, classical, folk (sitting)",
+          "mets": 2,
+          "id": 10120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Guitar, rock and roll band (standing)",
+          "mets": 3,
+          "id": 10125,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horn",
+          "mets": 2,
+          "id": 10060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Marching band, drum major (walking)",
+          "mets": 3.5,
+          "id": 10135,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Marching band, playing an instrument, baton twirling (walking)",
+          "mets": 4,
+          "id": 10130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Piano or organ",
+          "mets": 2.5,
+          "id": 10070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Trombone",
+          "mets": 3.5,
+          "id": 10080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Trumpet",
+          "mets": 2.5,
+          "id": 10090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Violin",
+          "mets": 2.5,
+          "id": 10100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Woodwind",
+          "mets": 2,
+          "id": 10110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "subCategories": [
+        {
+          "name": "Coal Mining",
+          "id": 9,
+          "activities": [
+            {
+              "name": "Coal mining, erecting supports",
+              "mets": 6.5,
+              "id": 11090,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Coal mining, general",
+              "mets": 6,
+              "id": 11100,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Drilling coal, rock",
+              "mets": 6.5,
+              "id": 11080,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Shoveling coal",
+              "mets": 7,
+              "id": 11110,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Custodial Work",
+          "id": 10,
+          "activities": [
+            {
+              "name": "Buffing the floor with electric buffer",
+              "mets": 3,
+              "id": 11121,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Cleaning sink and toilet, light effort",
+              "mets": 2.5,
+              "id": 11122,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Dusting, light effort",
+              "mets": 2.5,
+              "id": 11123,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Feathering arena floor, moderate effort",
+              "mets": 4,
+              "id": 11124,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "General cleaning, moderate effort",
+              "mets": 3.5,
+              "id": 11125,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Mopping, moderate effort",
+              "mets": 3.5,
+              "id": 11126,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Taking out the trash, moderate effort",
+              "mets": 3,
+              "id": 11127,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Vacuuming, light effort",
+              "mets": 2.5,
+              "id": 11128,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Vacuuming, moderate effort",
+              "mets": 3,
+              "id": 11129,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Farming",
+          "id": 11,
+          "activities": [
+            {
+              "name": "Baling hay, cleaning barn, poultry work, vigorous effort",
+              "mets": 8,
+              "id": 11140,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Chasing cattle or other livestock on horseback, moderate effort",
+              "mets": 4,
+              "id": 11151,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Chasing cattle or other livestock, driving, light effort",
+              "mets": 2,
+              "id": 11152,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Chasing cattle, non-strenuous (walking), moderate effort",
+              "mets": 3.5,
+              "id": 11150,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Driving a harvester, cutting hay, irrigation work",
+              "mets": 2.5,
+              "id": 11160,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Driving a tractor",
+              "mets": 2.5,
+              "id": 11170,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Feeding cattle, horses",
+              "mets": 4.5,
+              "id": 11190,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Feeding small animals",
+              "mets": 4,
+              "id": 11180,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Forking straw bales, cleaning corral or bars, vigorous effort",
+              "mets": 8,
+              "id": 11200,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Hauling water for animals, general hauling water",
+              "mets": 4.5,
+              "id": 11191,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Milking by hand, moderate effort",
+              "mets": 3,
+              "id": 11210,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Milking by machine, light effort",
+              "mets": 1.5,
+              "id": 11220,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Shoveling grain, moderate effort",
+              "mets": 5.5,
+              "id": 11230,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Taking care of animals (grooming, brushing, shearing sheep, assisting with birthing, medical care, branding)",
+              "mets": 6,
+              "id": 11192,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Fire Fighter",
+          "id": 12,
+          "activities": [
+            {
+              "name": "Fire fighter, climbing ladder with full gear",
+              "mets": 11,
+              "id": 11245,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Fire fighter, general",
+              "mets": 12,
+              "id": 11240,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Fire fighter, hauling hoses on ground",
+              "mets": 8,
+              "id": 11246,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Forestry",
+          "id": 13,
+          "activities": [
+            {
+              "name": "Ax chopping, fast",
+              "mets": 17,
+              "id": 11250,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Ax chopping, slow",
+              "mets": 5,
+              "id": 11260,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Barking trees",
+              "mets": 7,
+              "id": 11270,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Carrying logs",
+              "mets": 11,
+              "id": 11280,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Felling trees",
+              "mets": 8,
+              "id": 11290,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Forestry, general",
+              "mets": 8,
+              "id": 11300,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Hoeing",
+              "mets": 5,
+              "id": 11310,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Planting by hand",
+              "mets": 6,
+              "id": 11320,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Sawing by hand",
+              "mets": 7,
+              "id": 11330,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Sawing with a chainsaw",
+              "mets": 4.5,
+              "id": 11340,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Trimming trees",
+              "mets": 9,
+              "id": 11350,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Weeding",
+              "mets": 4,
+              "id": 11360,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Horse Trainer",
+          "id": 14,
+          "activities": [
+            {
+              "name": "Horseback riding - galloping",
+              "mets": 8,
+              "id": 11390,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Horseback riding - trotting",
+              "mets": 6.5,
+              "id": 11400,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Horseback riding - walking",
+              "mets": 2.5999999046325684,
+              "id": 11410,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Machine Shop",
+          "id": 15,
+          "activities": [
+            {
+              "name": "Machine tooling, machining, working sheet metal",
+              "mets": 2.5,
+              "id": 11430,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Operating a lathe",
+              "mets": 3,
+              "id": 11440,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Operating a punch press",
+              "mets": 5,
+              "id": 11450,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Tapping and drilling",
+              "mets": 4,
+              "id": 11460,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Welding",
+              "mets": 3,
+              "id": 11470,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Police",
+          "id": 16,
+          "activities": [
+            {
+              "name": "Directing traffic (standing)",
+              "mets": 2.5,
+              "id": 11525,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Driving a squad car (sitting)",
+              "mets": 2,
+              "id": 11526,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Making an arrest (standing)",
+              "mets": 4,
+              "id": 11528,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Riding in a squad car (sitting)",
+              "mets": 1.2999999523162842,
+              "id": 11527,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Steel Mill",
+          "id": 17,
+          "activities": [
+            {
+              "name": "Fettling",
+              "mets": 5,
+              "id": 11640,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Forging",
+              "mets": 5.5,
+              "id": 11650,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Hand rolling",
+              "mets": 8,
+              "id": 11660,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Merchant mill rolling",
+              "mets": 8,
+              "id": 11670,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Removing slag",
+              "mets": 11,
+              "id": 11680,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Tending furnace",
+              "mets": 7.5,
+              "id": 11690,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Tipping molds",
+              "mets": 5.5,
+              "id": 11700,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Working in general",
+              "mets": 8,
+              "id": 11710,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Tailoring",
+          "id": 18,
+          "activities": [
+            {
+              "name": "Hand sewing",
+              "mets": 2,
+              "id": 11740,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Machine sewing",
+              "mets": 2.5,
+              "id": 11750,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Pressing",
+              "mets": 4,
+              "id": 11760,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Tailoring, cutting",
+              "mets": 2.5,
+              "id": 11720,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Tailoring, general",
+              "mets": 2.5,
+              "id": 11730,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Weaving",
+              "mets": 3.5,
+              "id": 11765,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        }
+      ],
+      "name": "Occupations",
+      "id": 8,
+      "activities": [
+        {
+          "name": "Bakery, general, moderate effort",
+          "mets": 4,
+          "id": 11010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Bakery, light effort",
+          "mets": 2.5,
+          "id": 11015,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Bookbinding",
+          "mets": 2.299999952316284,
+          "id": 11020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Building road (including hauling debris, driving heavy machinery)",
+          "mets": 6,
+          "id": 11030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Building road, directing traffic (standing)",
+          "mets": 2,
+          "id": 11035,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carpentry",
+          "mets": 3.5,
+          "id": 11040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carrying heavy loads, such as bricks",
+          "mets": 8,
+          "id": 11050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carrying moderate loads up stairs, moving boxes (16-40 pounds)",
+          "mets": 8,
+          "id": 11060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Chambermaid, making bed (nursing)",
+          "mets": 2.5,
+          "id": 11070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Construction, outside, remodeling",
+          "mets": 5.5,
+          "id": 11120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Electrical work, plumbing",
+          "mets": 3.5,
+          "id": 11130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Furriery",
+          "mets": 4.5,
+          "id": 11370,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horse grooming",
+          "mets": 6,
+          "id": 11380,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Lifting items continuously, 10 - 20 lbs, with limited walking or resting",
+          "mets": 4,
+          "id": 11615,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Locksmith",
+          "mets": 3.5,
+          "id": 11420,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Masonry concrete",
+          "mets": 7,
+          "id": 11480,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Massage therapist (standing)",
+          "mets": 4,
+          "id": 11485,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Moving, pushing heavy objects, 75 lbs or more (desks, moving van work)",
+          "mets": 7.5,
+          "id": 11490,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Operating heavy duty equipment\/automated, not driving",
+          "mets": 2.5,
+          "id": 11500,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Orange grove work",
+          "mets": 4.5,
+          "id": 11510,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Printing (standing)",
+          "mets": 2.299999952316284,
+          "id": 11520,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Shoe repair, general",
+          "mets": 2.5,
+          "id": 11530,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Shoveling",
+          "id": 90007,
+          "hasSpeed": false,
+          "activityLevels": [
+            {
+              "name": "Digging ditches",
+              "minSpeedMPH": -1,
+              "mets": 8.5,
+              "maxSpeedMPH": -1,
+              "id": 11540
+            },
+            {
+              "name": "Heavy lifting (more than 16 pounds\/minute)",
+              "minSpeedMPH": -1,
+              "mets": 9,
+              "maxSpeedMPH": -1,
+              "id": 11550
+            },
+            {
+              "name": "Light lifting (less than 10 pounds\/minute)",
+              "minSpeedMPH": -1,
+              "mets": 6,
+              "maxSpeedMPH": -1,
+              "id": 11560
+            },
+            {
+              "name": "Moderate lifting (10 to 15 pounds\/minute)",
+              "minSpeedMPH": -1,
+              "mets": 7,
+              "maxSpeedMPH": -1,
+              "id": 11570
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - light office work, general (chemistry lab work, light use of hand tools, watch repair or micro-assembly, light assembly\/repair), sitting, reading, driving at work",
+          "mets": 1.5,
+          "id": 11580,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting - meetings, general, and\/or with talking involved, eating at a business meeting",
+          "mets": 1.5,
+          "id": 11585,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sitting; moderate (heavy levers, riding mower\/forklift, crane operation), teaching stretching or yoga",
+          "mets": 2.5,
+          "id": 11590,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Skindiving or SCUBA diving as a frogman (Navy Seal)",
+          "mets": 12,
+          "id": 11495,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing; light (bartending, store clerk, assembling, filing, duplicating, putting up a Christmas tree), standing and talking at work, changing clothes when teaching physical education",
+          "mets": 2.299999952316284,
+          "id": 11600,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing; light\/moderate (assemble\/repair heavy parts, welding, stocking, auto repair, pack boxes for moving, etc.), patient care (as in nursing)",
+          "mets": 3,
+          "id": 11610,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing; moderate (assembling at fast rate, intermittent, lifting 50 lbs, hitch\/twisting ropes)",
+          "mets": 3.5,
+          "id": 11620,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing; moderate\/heavy (lifting more than 50 lbs, masonry, painting, paper hanging)",
+          "mets": 4,
+          "id": 11630,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Teach physical education, exercise, sports classes (non-sport play)",
+          "mets": 4,
+          "id": 11875,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Teach physical education, exercise, sports classes (participate in the class)",
+          "mets": 6.5,
+          "id": 11876,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Truck driving, loading and unloading truck (standing)",
+          "mets": 6.5,
+          "id": 11766,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Typing, electric, manual or computer",
+          "mets": 1.5,
+          "id": 11770,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Using heavy power tools such as pneumatic tools (jackhammers, drills. etc.)",
+          "mets": 6,
+          "id": 11780,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Using heavy tools (not power) such as shovel, pick, tunnel bar, spade",
+          "mets": 8,
+          "id": 11790,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walking while carrying things",
+          "id": 90008,
+          "hasSpeed": false,
+          "activityLevels": [
+            {
+              "name": "Carrying under 25 pounds",
+              "minSpeedMPH": -1,
+              "mets": 4.5,
+              "maxSpeedMPH": -1,
+              "id": 11810
+            },
+            {
+              "name": "Carrying 25 to 49 pounds",
+              "minSpeedMPH": -1,
+              "mets": 5,
+              "maxSpeedMPH": -1,
+              "id": 11820
+            },
+            {
+              "name": "Carrying 50 to 74 pounds",
+              "minSpeedMPH": -1,
+              "mets": 6.5,
+              "maxSpeedMPH": -1,
+              "id": 11830
+            },
+            {
+              "name": "Carrying 75 to 99 pounds",
+              "minSpeedMPH": -1,
+              "mets": 7.5,
+              "maxSpeedMPH": -1,
+              "id": 11840
+            },
+            {
+              "name": "Carrying over 100 pounds",
+              "minSpeedMPH": -1,
+              "mets": 8.5,
+              "maxSpeedMPH": -1,
+              "id": 11850
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Working in scene shop, theater actor, backstage employee",
+          "mets": 3,
+          "id": 11870,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Pilates",
+      "id": 32,
+      "activities": [
+        {
+          "name": "Pilates",
+          "mets": 3.0999999046325684,
+          "id": 53001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Pilates, Advanced",
+          "mets": 5.300000190734863,
+          "id": 53003,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Pilates, Intermediate",
+          "mets": 4.300000190734863,
+          "id": 53002,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Self care",
+      "id": 19,
+      "activities": [
+        {
+          "name": "Eating (sitting)",
+          "mets": 1.5,
+          "id": 13030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Grooming (washing, shaving, brushing teeth, washing hands, putting on make-up), sitting or standing",
+          "mets": 2,
+          "id": 13040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hairstyling",
+          "mets": 2.5,
+          "id": 13045,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Having hair or nails done by someone else, sitting",
+          "mets": 1,
+          "id": 13046,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Standing - getting ready for bed, in general",
+          "mets": 2,
+          "id": 13000,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Taking medication, sitting or standing",
+          "mets": 1,
+          "id": 13036,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Talking and eating or eating only (standing)",
+          "mets": 2,
+          "id": 13035,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "subCategories": [
+        {
+          "name": "Bicycling",
+          "id": 21,
+          "activities": [
+            {
+              "name": "Bike",
+              "id": 90001,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "under 10 mph",
+                  "minSpeedMPH": -1,
+                  "mets": 4,
+                  "maxSpeedMPH": 9.9,
+                  "id": 1010
+                },
+                {
+                  "name": "10-11.9 mph",
+                  "minSpeedMPH": 10,
+                  "mets": 6,
+                  "maxSpeedMPH": 11.9,
+                  "id": 1020
+                },
+                {
+                  "name": "12 to 13.9mph",
+                  "minSpeedMPH": 12,
+                  "mets": 8,
+                  "maxSpeedMPH": 13.9,
+                  "id": 1030
+                },
+                {
+                  "name": "Mountain Bike",
+                  "minSpeedMPH": -1,
+                  "mets": 8.5,
+                  "maxSpeedMPH": -1,
+                  "id": 1009
+                },
+                {
+                  "name": "14 to 15.9 mph",
+                  "minSpeedMPH": 14,
+                  "mets": 10,
+                  "maxSpeedMPH": 15.9,
+                  "id": 1040
+                },
+                {
+                  "name": "16 to 19mph",
+                  "minSpeedMPH": 16,
+                  "mets": 12,
+                  "maxSpeedMPH": 19,
+                  "id": 1050
+                },
+                {
+                  "name": "over 20mph",
+                  "minSpeedMPH": 20,
+                  "mets": 16,
+                  "maxSpeedMPH": -1,
+                  "id": 1060
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Unicycling",
+              "mets": 5,
+              "id": 1070,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Conditioning exercises",
+          "id": 22,
+          "activities": [
+            {
+              "name": "Calisthenics",
+              "mets": 8,
+              "id": 2020,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Calisthenics, home exercise, light or moderate effort, general (example: back exercises), going up and down from floor",
+              "mets": 3.5,
+              "id": 2030,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Circuit Training",
+              "mets": 8,
+              "id": 2040,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Health club exercise, general",
+              "mets": 5.5,
+              "id": 2060,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Mild stretching",
+              "mets": 2.5,
+              "id": 2101,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Rowing Machine",
+              "id": 90003,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "light effort (50 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 3.5,
+                  "maxSpeedMPH": -1,
+                  "id": 2071
+                },
+                {
+                  "name": "moderate effort (100 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 7,
+                  "maxSpeedMPH": -1,
+                  "id": 2072
+                },
+                {
+                  "name": "vigorous effort (150 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 8.5,
+                  "maxSpeedMPH": -1,
+                  "id": 2073
+                },
+                {
+                  "name": "very vigorous effort (200 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 12,
+                  "maxSpeedMPH": -1,
+                  "id": 2074
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Ski machine, general",
+              "mets": 7,
+              "id": 2080,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Slimnastics, jazzercise",
+              "mets": 6,
+              "id": 2090,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Spinning",
+              "id": 90002,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "very light effort (50 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 3,
+                  "maxSpeedMPH": -1,
+                  "id": 2011
+                },
+                {
+                  "name": "light effort (100 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 5.5,
+                  "maxSpeedMPH": -1,
+                  "id": 2012
+                },
+                {
+                  "name": "moderate effort (150 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 7,
+                  "maxSpeedMPH": -1,
+                  "id": 2013
+                },
+                {
+                  "name": "vigorous effort (200 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 10.5,
+                  "maxSpeedMPH": -1,
+                  "id": 2014
+                },
+                {
+                  "name": "very vigorous effort (250 watts)",
+                  "minSpeedMPH": -1,
+                  "mets": 12.5,
+                  "maxSpeedMPH": -1,
+                  "id": 2015
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Stairclimber",
+              "mets": 9,
+              "id": 2065,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Stretching",
+              "mets": 2.5,
+              "id": 2100,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Teaching aerobic exercise class",
+              "mets": 6,
+              "id": 2110,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Water aerobics",
+              "mets": 4,
+              "id": 2120,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Weight lifting (free, nautilus or universal-type), light or moderate effort, light workout, general",
+              "mets": 3,
+              "id": 2130,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Weights",
+              "mets": 6,
+              "id": 2050,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Whirlpool, sitting",
+              "mets": 1,
+              "id": 2135,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Elliptical",
+          "id": 29,
+          "activities": [
+            {
+              "name": "Elliptical",
+              "id": 90017,
+              "hasSpeed": false,
+              "activityLevels": [
+                {
+                  "name": "Low Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 6,
+                  "maxSpeedMPH": -1,
+                  "id": 50101
+                },
+                {
+                  "name": "Medium Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 8.699999809265137,
+                  "maxSpeedMPH": -1,
+                  "id": 50102
+                },
+                {
+                  "name": "High Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 12,
+                  "maxSpeedMPH": -1,
+                  "id": 50103
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Elliptical, High Resistance",
+              "id": 90018,
+              "hasSpeed": false,
+              "activityLevels": [
+                {
+                  "name": "Low Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 10.399999618530273,
+                  "maxSpeedMPH": -1,
+                  "id": 50201
+                },
+                {
+                  "name": "Medium Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 13.199999809265137,
+                  "maxSpeedMPH": -1,
+                  "id": 50202
+                },
+                {
+                  "name": "High Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 16.399999618530273,
+                  "maxSpeedMPH": -1,
+                  "id": 50203
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Elliptical, Low Resistance",
+              "id": 90016,
+              "hasSpeed": false,
+              "activityLevels": [
+                {
+                  "name": "Low Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 2,
+                  "maxSpeedMPH": -1,
+                  "id": 50001
+                },
+                {
+                  "name": "Medium Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 4.699999809265137,
+                  "maxSpeedMPH": -1,
+                  "id": 50002
+                },
+                {
+                  "name": "High Speed",
+                  "minSpeedMPH": -1,
+                  "mets": 8,
+                  "maxSpeedMPH": -1,
+                  "id": 50003
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Running",
+          "id": 23,
+          "activities": [
+            {
+              "name": "Jog\/walk combination (jogging component of less than 10 minutes)",
+              "mets": 6,
+              "id": 12010,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Jogging on a mini-tramp",
+              "mets": 4.5,
+              "id": 12027,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Jogging, general",
+              "mets": 7,
+              "id": 12020,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Jogging, in place",
+              "mets": 8,
+              "id": 12025,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Run",
+              "id": 90009,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "5 mph (12 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 8,
+                  "maxSpeedMPH": 5,
+                  "id": 12030
+                },
+                {
+                  "name": "5.2 mph (11.5 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 9,
+                  "maxSpeedMPH": 5.2,
+                  "id": 12040
+                },
+                {
+                  "name": "6 mph (10 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 10,
+                  "maxSpeedMPH": 6,
+                  "id": 12050
+                },
+                {
+                  "name": "6.7 mph (9 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 11,
+                  "maxSpeedMPH": 6.7,
+                  "id": 12060
+                },
+                {
+                  "name": "7 mph (8.5 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 11.5,
+                  "maxSpeedMPH": 7,
+                  "id": 12070
+                },
+                {
+                  "name": "7.5 mph (8 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 12.5,
+                  "maxSpeedMPH": 7.5,
+                  "id": 12080
+                },
+                {
+                  "name": "8 mph (7.5 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 13.5,
+                  "maxSpeedMPH": 8,
+                  "id": 12090
+                },
+                {
+                  "name": "8.6 mph (7 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 14,
+                  "maxSpeedMPH": 8.6,
+                  "id": 12100
+                },
+                {
+                  "name": "9 mph (6.5 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 15,
+                  "maxSpeedMPH": 9,
+                  "id": 12110
+                },
+                {
+                  "name": "10 mph (6 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 16,
+                  "maxSpeedMPH": 10,
+                  "id": 12120
+                },
+                {
+                  "name": "10.9 mph (5.5 min\/mile)",
+                  "minSpeedMPH": -1,
+                  "mets": 18,
+                  "maxSpeedMPH": 10.9,
+                  "id": 12130
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Running while pushing a stroller or wheelchair",
+              "mets": 8,
+              "id": 12190,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Running, cross country",
+              "mets": 9,
+              "id": 12140,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Running, on a track, team practice",
+              "mets": 10,
+              "id": 12180,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Running, stairs, up",
+              "mets": 15,
+              "id": 12170,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Treadmill",
+          "id": 30,
+          "activities": [
+            {
+              "name": "Treadmill",
+              "id": 90019,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "2mph",
+                  "minSpeedMPH": -1,
+                  "mets": 3,
+                  "maxSpeedMPH": 2.4,
+                  "id": 51002
+                },
+                {
+                  "name": "3mph",
+                  "minSpeedMPH": 2.5,
+                  "mets": 3.9000000953674316,
+                  "maxSpeedMPH": 3.4,
+                  "id": 51003
+                },
+                {
+                  "name": "4mph",
+                  "minSpeedMPH": 3.5,
+                  "mets": 4.800000190734863,
+                  "maxSpeedMPH": 4.4,
+                  "id": 51004
+                },
+                {
+                  "name": "5mph",
+                  "minSpeedMPH": 4.5,
+                  "mets": 10.399999618530273,
+                  "maxSpeedMPH": 5.4,
+                  "id": 51005
+                },
+                {
+                  "name": "6mph",
+                  "minSpeedMPH": 5.5,
+                  "mets": 12.199999809265137,
+                  "maxSpeedMPH": 6.4,
+                  "id": 51006
+                },
+                {
+                  "name": "7mph",
+                  "minSpeedMPH": 6.5,
+                  "mets": 14,
+                  "maxSpeedMPH": 7.4,
+                  "id": 51007
+                },
+                {
+                  "name": "8mph",
+                  "minSpeedMPH": 7.5,
+                  "mets": 16,
+                  "maxSpeedMPH": 8.4,
+                  "id": 51008
+                },
+                {
+                  "name": "9mph",
+                  "minSpeedMPH": 8.5,
+                  "mets": 17.799999237060547,
+                  "maxSpeedMPH": 9.4,
+                  "id": 51009
+                },
+                {
+                  "name": "10mph",
+                  "minSpeedMPH": 9.5,
+                  "mets": 19.600000381469727,
+                  "maxSpeedMPH": 10.4,
+                  "id": 51010
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Treadmill, 10% Incline",
+              "id": 90021,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "2mph",
+                  "minSpeedMPH": -1,
+                  "mets": 6.300000190734863,
+                  "maxSpeedMPH": 2.4,
+                  "id": 51202
+                },
+                {
+                  "name": "3mph",
+                  "minSpeedMPH": 2.5,
+                  "mets": 8.800000190734863,
+                  "maxSpeedMPH": 3.4,
+                  "id": 51203
+                },
+                {
+                  "name": "4mph",
+                  "minSpeedMPH": 3.5,
+                  "mets": 11.5,
+                  "maxSpeedMPH": 4.4,
+                  "id": 51204
+                },
+                {
+                  "name": "5mph",
+                  "minSpeedMPH": 4.5,
+                  "mets": 14.5,
+                  "maxSpeedMPH": 5.4,
+                  "id": 51205
+                },
+                {
+                  "name": "6mph",
+                  "minSpeedMPH": 5.5,
+                  "mets": 17.200000762939453,
+                  "maxSpeedMPH": 6.4,
+                  "id": 51206
+                },
+                {
+                  "name": "7mph",
+                  "minSpeedMPH": 6.5,
+                  "mets": 19.899999618530273,
+                  "maxSpeedMPH": 7.4,
+                  "id": 51207
+                },
+                {
+                  "name": "8mph",
+                  "minSpeedMPH": 7.5,
+                  "mets": 22.5,
+                  "maxSpeedMPH": 8.4,
+                  "id": 51208
+                },
+                {
+                  "name": "9mph",
+                  "minSpeedMPH": 8.5,
+                  "mets": 25.200000762939453,
+                  "maxSpeedMPH": 9.4,
+                  "id": 51209
+                },
+                {
+                  "name": "10mph",
+                  "minSpeedMPH": 9.5,
+                  "mets": 28,
+                  "maxSpeedMPH": 10.4,
+                  "id": 51210
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Treadmill, 15% Incline",
+              "id": 90022,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "2mph",
+                  "minSpeedMPH": -1,
+                  "mets": 8,
+                  "maxSpeedMPH": 2.4,
+                  "id": 51302
+                },
+                {
+                  "name": "3mph",
+                  "minSpeedMPH": 2.5,
+                  "mets": 11.399999618530273,
+                  "maxSpeedMPH": 3.4,
+                  "id": 51303
+                },
+                {
+                  "name": "4mph",
+                  "minSpeedMPH": 3.5,
+                  "mets": 14.800000190734863,
+                  "maxSpeedMPH": 4.4,
+                  "id": 51304
+                },
+                {
+                  "name": "5mph",
+                  "minSpeedMPH": 4.5,
+                  "mets": 16.600000381469727,
+                  "maxSpeedMPH": 5.4,
+                  "id": 51305
+                },
+                {
+                  "name": "6mph",
+                  "minSpeedMPH": 5.5,
+                  "mets": 19.700000762939453,
+                  "maxSpeedMPH": 6.4,
+                  "id": 51306
+                },
+                {
+                  "name": "7mph",
+                  "minSpeedMPH": 6.5,
+                  "mets": 22.799999237060547,
+                  "maxSpeedMPH": 7.4,
+                  "id": 51307
+                },
+                {
+                  "name": "8mph",
+                  "minSpeedMPH": 7.5,
+                  "mets": 25.899999618530273,
+                  "maxSpeedMPH": 8.4,
+                  "id": 51308
+                },
+                {
+                  "name": "9mph",
+                  "minSpeedMPH": 8.5,
+                  "mets": 28.899999618530273,
+                  "maxSpeedMPH": 9.4,
+                  "id": 51309
+                },
+                {
+                  "name": "10mph",
+                  "minSpeedMPH": 9.5,
+                  "mets": 32,
+                  "maxSpeedMPH": 10.4,
+                  "id": 51310
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Treadmill, 5% Incline",
+              "id": 90020,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "2mph",
+                  "minSpeedMPH": -1,
+                  "mets": 4.599999904632568,
+                  "maxSpeedMPH": 2.4,
+                  "id": 51102
+                },
+                {
+                  "name": "3mph",
+                  "minSpeedMPH": 2.5,
+                  "mets": 6.400000095367432,
+                  "maxSpeedMPH": 3.4,
+                  "id": 51103
+                },
+                {
+                  "name": "4mph",
+                  "minSpeedMPH": 3.5,
+                  "mets": 8.100000381469727,
+                  "maxSpeedMPH": 4.4,
+                  "id": 51104
+                },
+                {
+                  "name": "5mph",
+                  "minSpeedMPH": 4.5,
+                  "mets": 12.5,
+                  "maxSpeedMPH": 5.4,
+                  "id": 51105
+                },
+                {
+                  "name": "6mph",
+                  "minSpeedMPH": 5.5,
+                  "mets": 14.800000190734863,
+                  "maxSpeedMPH": 6.4,
+                  "id": 51106
+                },
+                {
+                  "name": "7mph",
+                  "minSpeedMPH": 6.5,
+                  "mets": 16.899999618530273,
+                  "maxSpeedMPH": 7.4,
+                  "id": 51107
+                },
+                {
+                  "name": "8mph",
+                  "minSpeedMPH": 7.5,
+                  "mets": 19.200000762939453,
+                  "maxSpeedMPH": 8.4,
+                  "id": 51108
+                },
+                {
+                  "name": "9mph",
+                  "minSpeedMPH": 8.5,
+                  "mets": 21.5,
+                  "maxSpeedMPH": 9.4,
+                  "id": 51109
+                },
+                {
+                  "name": "10mph",
+                  "minSpeedMPH": 9.5,
+                  "mets": 23.700000762939453,
+                  "maxSpeedMPH": 10.4,
+                  "id": 51110
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Water Activities",
+          "id": 25,
+          "activities": [
+            {
+              "name": "Boating, power",
+              "mets": 2.5,
+              "id": 18010,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Canoeing",
+              "mets": 12,
+              "id": 18080,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Canoeing, harvesting wild rice, knocking rice off the stalks",
+              "mets": 3.299999952316284,
+              "id": 18025,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Canoeing, on camping trip",
+              "mets": 4,
+              "id": 18020,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Canoeing, portaging",
+              "mets": 7,
+              "id": 18030,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Diving",
+              "mets": 3,
+              "id": 18090,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Kayaking",
+              "mets": 5,
+              "id": 18100,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Paddle boat",
+              "mets": 4,
+              "id": 18110,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Rowing",
+              "id": 90014,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "2.0 - 3.9 mph, light effort",
+                  "minSpeedMPH": -1,
+                  "mets": 3,
+                  "maxSpeedMPH": 3.9,
+                  "id": 18040
+                },
+                {
+                  "name": "4.0 - 5.9 mph, moderate effort",
+                  "minSpeedMPH": 4,
+                  "mets": 7,
+                  "maxSpeedMPH": 5.9,
+                  "id": 18050
+                },
+                {
+                  "name": "Faster than 6 mph, vigorous effort",
+                  "minSpeedMPH": 6,
+                  "mets": 12,
+                  "maxSpeedMPH": -1,
+                  "id": 18060
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Sailing",
+              "mets": 3,
+              "id": 18120,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Sailing, Sunfish\/Laser\/Hobby Cat, Keel boats, ocean sailing, yachting",
+              "mets": 3,
+              "id": 18140,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Sailing, in competition",
+              "mets": 5,
+              "id": 18130,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Scuba diving",
+              "mets": 7,
+              "id": 18200,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skimobiling",
+              "mets": 7,
+              "id": 18160,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skindiving, fast",
+              "mets": 16,
+              "id": 18180,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skindiving, moderate",
+              "mets": 12.5,
+              "id": 18190,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Snorkeling",
+              "mets": 5,
+              "id": 18210,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Surfing, body or board",
+              "mets": 3,
+              "id": 18220,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swim",
+              "id": 90024,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "less than 25 yards\/min",
+                  "minSpeedMPH": -1,
+                  "mets": 4,
+                  "maxSpeedMPH": 0.9,
+                  "id": 58001
+                },
+                {
+                  "name": "25-50 yards\/min",
+                  "minSpeedMPH": 1,
+                  "mets": 8,
+                  "maxSpeedMPH": 1.7,
+                  "id": 18240
+                },
+                {
+                  "name": "50-75 yards\/min",
+                  "minSpeedMPH": 1.8,
+                  "mets": 11,
+                  "maxSpeedMPH": 2.6,
+                  "id": 58002
+                },
+                {
+                  "name": "75-100 yards\/min",
+                  "minSpeedMPH": 2.7,
+                  "mets": 14,
+                  "maxSpeedMPH": 3.4,
+                  "id": 58003
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming laps, freestyle, fast, vigorous effort",
+              "mets": 10,
+              "id": 18230,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, backstroke, general",
+              "mets": 7,
+              "id": 18250,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, breaststroke, general",
+              "mets": 10,
+              "id": 18260,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, butterfly, general",
+              "mets": 11,
+              "id": 18270,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, crawl, fast (75 yards\/minute), vigorous effort",
+              "mets": 11,
+              "id": 18280,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, crawl, slow (50 yards\/minute), moderate or light effort",
+              "mets": 8,
+              "id": 18290,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, lake, ocean, river",
+              "mets": 6,
+              "id": 18300,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, leisurely, not lap swimming, general",
+              "mets": 6,
+              "id": 18310,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, sidestroke, general",
+              "mets": 8,
+              "id": 18320,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, synchronized",
+              "mets": 8,
+              "id": 18330,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, treading water, fast vigorous effort",
+              "mets": 10,
+              "id": 18340,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Swimming, treading water, moderate effort, general",
+              "mets": 4,
+              "id": 18350,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Water aerobics",
+              "mets": 4,
+              "id": 18355,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Water jogging",
+              "mets": 8,
+              "id": 18366,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Water polo",
+              "mets": 10,
+              "id": 18360,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Water skiing",
+              "mets": 6,
+              "id": 18150,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Water volleyball",
+              "mets": 3,
+              "id": 18365,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Whitewater rafting, kayaking, or canoeing",
+              "mets": 5,
+              "id": 18370,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        },
+        {
+          "name": "Winter activities",
+          "id": 24,
+          "activities": [
+            {
+              "name": "Cross Country Skiing",
+              "id": 90015,
+              "hasSpeed": true,
+              "activityLevels": [
+                {
+                  "name": "2.5 mph, slow or light effort, ski walking",
+                  "minSpeedMPH": -1,
+                  "mets": 7,
+                  "maxSpeedMPH": 2.5,
+                  "id": 19080
+                },
+                {
+                  "name": "4.0-4.9 mph, moderate speed and effort, general",
+                  "minSpeedMPH": 4,
+                  "mets": 8,
+                  "maxSpeedMPH": 4.9,
+                  "id": 19090
+                },
+                {
+                  "name": "5.0-7.9 mph, brisk speed, vigorous effort",
+                  "minSpeedMPH": 5,
+                  "mets": 9,
+                  "maxSpeedMPH": 7.9,
+                  "id": 19100
+                },
+                {
+                  "name": "faster than 8.0 mph, racing",
+                  "minSpeedMPH": 8,
+                  "mets": 14,
+                  "maxSpeedMPH": -1,
+                  "id": 19110
+                }
+              ],
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Ice skating",
+              "mets": 7,
+              "id": 19030,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Moving ice house (set up\/drill holes, etc.)",
+              "mets": 6,
+              "id": 19010,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skating, ice, 9 mph or less",
+              "mets": 5.5,
+              "id": 19020,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skating, ice, rapidly, more than 9 mph",
+              "mets": 9,
+              "id": 19040,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skating, speed, competitive",
+              "mets": 15,
+              "id": 19050,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Ski jumping (climb up carrying skis)",
+              "mets": 7,
+              "id": 19060,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skiing",
+              "mets": 6,
+              "id": 19160,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skiing, cross country, hard snow, uphill, maximum, snow mountaineering",
+              "mets": 16.5,
+              "id": 19130,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skiing, downhill, light effort",
+              "mets": 5,
+              "id": 19150,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Skiing, downhill, vigorous effort, racing",
+              "mets": 8,
+              "id": 19170,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Sledding, tobogganing, bobsledding, luge",
+              "mets": 7,
+              "id": 19180,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Snowmobiling",
+              "mets": 3.5,
+              "id": 19200,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            },
+            {
+              "name": "Snowshoeing",
+              "mets": 8,
+              "id": 19190,
+              "hasSpeed": false,
+              "accessLevel": "PUBLIC"
+            }
+          ]
+        }
+      ],
+      "name": "Sports and Workouts",
+      "id": 20,
+      "activities": [
+        {
+          "name": "Archery",
+          "mets": 3.5,
+          "id": 15010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Badminton",
+          "mets": 7,
+          "id": 15020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Badminton, social singles and doubles, general",
+          "mets": 4.5,
+          "id": 15030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Baseball",
+          "mets": 5,
+          "id": 15620,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Basketball",
+          "mets": 8,
+          "id": 15040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Basketball, non-game, general",
+          "mets": 6,
+          "id": 15050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Basketball, officiating",
+          "mets": 7,
+          "id": 15060,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Basketball, shooting baskets",
+          "mets": 4.5,
+          "id": 15070,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Basketball, wheelchair",
+          "mets": 6.5,
+          "id": 15075,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Billiards",
+          "mets": 2.5,
+          "id": 15080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Bootcamp",
+          "mets": 8.899999618530273,
+          "id": 55003,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Bowling",
+          "mets": 3,
+          "id": 15090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Boxing",
+          "mets": 12,
+          "id": 15100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Boxing, punching bag",
+          "mets": 6,
+          "id": 15110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Boxing, sparring",
+          "mets": 9,
+          "id": 15120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Broomball",
+          "mets": 7,
+          "id": 15130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Children's games (hopscotch, 4-square, dodge bail, playground apparatus, t-ball, tetherbai;, marbles, jacks, acrace games)",
+          "mets": 5,
+          "id": 15135,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Coaching: football, soccer, basketball, baseball, swimming, etc.",
+          "mets": 4,
+          "id": 15140,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Cricket",
+          "mets": 5,
+          "id": 15150,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Croquet",
+          "mets": 2.5,
+          "id": 15160,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Curling",
+          "mets": 4,
+          "id": 15170,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Darts, wail or lawn",
+          "mets": 2.5,
+          "id": 15180,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Drag racing, pushing or driving a car",
+          "mets": 6,
+          "id": 15190,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Fencing",
+          "mets": 6,
+          "id": 15200,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Field Hockey",
+          "mets": 8,
+          "id": 15350,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Football",
+          "mets": 9,
+          "id": 15210,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Football or baseball, playing catch",
+          "mets": 2.5,
+          "id": 15235,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Football, touch, flag, general",
+          "mets": 8,
+          "id": 15230,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Frisbee playing, general",
+          "mets": 3,
+          "id": 15240,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Golf",
+          "mets": 4.5,
+          "id": 15255,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Golf, miniature, driving range",
+          "mets": 3,
+          "id": 15270,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Golf, using power cart",
+          "mets": 3.5,
+          "id": 15290,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Golf, walking and carrying clubs",
+          "mets": 4.5,
+          "id": 15265,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Golf, walking and pulling clubs",
+          "mets": 4.300000190734863,
+          "id": 15285,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Gymnastics",
+          "mets": 4,
+          "id": 15300,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hacky sack",
+          "mets": 4,
+          "id": 15310,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Handball",
+          "mets": 12,
+          "id": 15320,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Handball, team",
+          "mets": 8,
+          "id": 15330,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hang gliding",
+          "mets": 3.5,
+          "id": 15340,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hockey",
+          "mets": 8,
+          "id": 15360,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horseback riding",
+          "mets": 4,
+          "id": 15370,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horseback riding - galloping",
+          "mets": 8,
+          "id": 11390,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horseback riding - trotting",
+          "mets": 6.5,
+          "id": 11400,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horseback riding - walking",
+          "mets": 2.5999999046325684,
+          "id": 11410,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horseback riding, saddling horse, grooming horse",
+          "mets": 3.5,
+          "id": 15380,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Horseshoe pitching",
+          "mets": 3,
+          "id": 15410,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Jai alai",
+          "mets": 12,
+          "id": 15420,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Juggling",
+          "mets": 4,
+          "id": 15440,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Jumping rope",
+          "mets": 10,
+          "id": 15551,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Kickball",
+          "mets": 7,
+          "id": 15450,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Kickboxing",
+          "mets": 9.399999618530273,
+          "id": 55002,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Lacrosse",
+          "mets": 8,
+          "id": 15460,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Martial Arts",
+          "mets": 10,
+          "id": 15430,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Motocross",
+          "mets": 4,
+          "id": 15470,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Orienteering",
+          "mets": 9,
+          "id": 15480,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Paddleball, casual, general",
+          "mets": 6,
+          "id": 15500,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Paddleball, competitive",
+          "mets": 10,
+          "id": 15490,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Polo",
+          "mets": 8,
+          "id": 15510,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Racquetball",
+          "mets": 7,
+          "id": 15530,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Racquetball, competitive",
+          "mets": 10,
+          "id": 15520,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Rock climbing",
+          "mets": 11,
+          "id": 15535,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Rock climbing, rappelling",
+          "mets": 8,
+          "id": 15540,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Roller blading",
+          "mets": 12.5,
+          "id": 15591,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Roller skating",
+          "mets": 7,
+          "id": 15590,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Rope jumping, fast",
+          "mets": 12,
+          "id": 15550,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Rope jumping, slow",
+          "mets": 8,
+          "id": 15552,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Rugby",
+          "mets": 10,
+          "id": 15560,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Shuffleboard, lawn bowling",
+          "mets": 3,
+          "id": 15570,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Skateboarding",
+          "mets": 5,
+          "id": 15580,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Sky diving",
+          "mets": 3.5,
+          "id": 15600,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Soccer",
+          "mets": 10,
+          "id": 15605,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Soccer, casual, general",
+          "mets": 7,
+          "id": 15610,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Softball",
+          "mets": 6,
+          "id": 15640,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Softball, officiating",
+          "mets": 4,
+          "id": 15630,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Spinning",
+          "mets": 6.5,
+          "id": 55001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Squash",
+          "mets": 12,
+          "id": 15650,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Table tennis",
+          "mets": 4,
+          "id": 15660,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Tai chi",
+          "mets": 4,
+          "id": 15670,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Tennis",
+          "mets": 7,
+          "id": 15675,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Tennis, doubles",
+          "mets": 6,
+          "id": 15680,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Tennis, singles",
+          "mets": 8,
+          "id": 15690,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Track and field (high jump, long jump, triple jump, javelin, pole vault)",
+          "mets": 6,
+          "id": 15733,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Track and field (shot, discus, hammer throw)",
+          "mets": 4,
+          "id": 15732,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Track and field (steeplechase, hurdles)",
+          "mets": 10,
+          "id": 15734,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Trampoline",
+          "mets": 3.5,
+          "id": 15700,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Ultimate frisbee",
+          "mets": 8,
+          "id": 15250,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Volleyball",
+          "mets": 8,
+          "id": 15711,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Volleyball, beach",
+          "mets": 8,
+          "id": 15725,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Volleyball, light",
+          "mets": 4,
+          "id": 15710,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Volleyball, non-competitive, 6 - 9 member team, general",
+          "mets": 3,
+          "id": 15720,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wallyball, general",
+          "mets": 7,
+          "id": 15731,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wrestling",
+          "mets": 6,
+          "id": 15730,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Zumba",
+          "mets": 5.5,
+          "id": 56001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "id": 26,
+      "activities": [
+        {
+          "name": "Driving",
+          "mets": 2,
+          "id": 16010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Driving heavy truck, tractor, bus",
+          "mets": 3,
+          "id": 16050,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Flying airplane",
+          "mets": 2,
+          "id": 16020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Motorcycle",
+          "mets": 2.5,
+          "id": 16030,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Pushing plane in and out of hangar",
+          "mets": 6,
+          "id": 16040,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Riding in a bus",
+          "mets": 1,
+          "id": 16016,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Riding in a car or truck",
+          "mets": 1,
+          "id": 16015,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Walking",
+      "id": 27,
+      "activities": [
+        {
+          "name": "Backpacking",
+          "mets": 7,
+          "id": 17010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Bird watching",
+          "mets": 2.5,
+          "id": 17085,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carrying infant or 15 pound load (e.g. suitcase)",
+          "mets": 3.5,
+          "id": 17020,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Carrying load upstairs",
+          "id": 90011,
+          "hasSpeed": false,
+          "activityLevels": [
+            {
+              "name": "1 to 15 lb load",
+              "minSpeedMPH": -1,
+              "mets": 5,
+              "maxSpeedMPH": -1,
+              "id": 17026
+            },
+            {
+              "name": "16 to 24 lb load",
+              "minSpeedMPH": -1,
+              "mets": 6,
+              "maxSpeedMPH": -1,
+              "id": 17027
+            },
+            {
+              "name": "25 to 49 lb load",
+              "minSpeedMPH": -1,
+              "mets": 8,
+              "maxSpeedMPH": -1,
+              "id": 17028
+            },
+            {
+              "name": "50 to 74 lb load",
+              "minSpeedMPH": -1,
+              "mets": 10,
+              "maxSpeedMPH": -1,
+              "id": 17029
+            },
+            {
+              "name": "74+ lb load",
+              "minSpeedMPH": -1,
+              "mets": 12,
+              "maxSpeedMPH": -1,
+              "id": 17030
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Going up stairs, using or climbing up ladder",
+          "mets": 8,
+          "id": 17130,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hike",
+          "id": 90012,
+          "hasSpeed": true,
+          "activityLevels": [
+            {
+              "name": "With 0 to 9 pound pack",
+              "minSpeedMPH": -1,
+              "mets": 7,
+              "maxSpeedMPH": -1,
+              "id": 17035
+            },
+            {
+              "name": "With 10 to 20 pound pack",
+              "minSpeedMPH": -1,
+              "mets": 7.5,
+              "maxSpeedMPH": -1,
+              "id": 17040
+            },
+            {
+              "name": "With 21 to 42 pound pack",
+              "minSpeedMPH": -1,
+              "mets": 8,
+              "maxSpeedMPH": -1,
+              "id": 17050
+            },
+            {
+              "name": "With 42+ pound pack",
+              "minSpeedMPH": -1,
+              "mets": 9,
+              "maxSpeedMPH": -1,
+              "id": 17060
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Hiking, cross country",
+          "mets": 6,
+          "id": 17080,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Marching, rapidly, military",
+          "mets": 6.5,
+          "id": 17090,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Pushing a wheelchair",
+          "mets": 4,
+          "id": 17105,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Pushing or pulling stroller with child or walking with children",
+          "mets": 2.5,
+          "id": 17100,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Race walking",
+          "mets": 6.5,
+          "id": 17110,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Rock climbing",
+          "mets": 8,
+          "id": 17120,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Using crutches",
+          "mets": 5,
+          "id": 17140,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walk",
+          "id": 90013,
+          "hasSpeed": true,
+          "activityLevels": [
+            {
+              "name": "less than 2 mph, strolling very slowly",
+              "minSpeedMPH": -1,
+              "mets": 2,
+              "maxSpeedMPH": 1.5,
+              "id": 17151
+            },
+            {
+              "name": "2.0 mph, slow pace",
+              "minSpeedMPH": -1,
+              "mets": 2.5,
+              "maxSpeedMPH": 2,
+              "id": 17152
+            },
+            {
+              "name": "2.5 mph",
+              "minSpeedMPH": -1,
+              "mets": 3,
+              "maxSpeedMPH": 2.5,
+              "id": 17170
+            },
+            {
+              "name": "3.0 mph, moderate pace",
+              "minSpeedMPH": -1,
+              "mets": 3.299999952316284,
+              "maxSpeedMPH": 3,
+              "id": 17190
+            },
+            {
+              "name": "3.5 mph, walking for exercise",
+              "minSpeedMPH": -1,
+              "mets": 3.799999952316284,
+              "maxSpeedMPH": 3.5,
+              "id": 17200
+            },
+            {
+              "name": "4.0 mph, very brisk pace",
+              "minSpeedMPH": -1,
+              "mets": 5,
+              "maxSpeedMPH": 4,
+              "id": 17220
+            },
+            {
+              "name": "4.5 mph, very, very brisk",
+              "minSpeedMPH": -1,
+              "mets": 6.300000190734863,
+              "maxSpeedMPH": 4.5,
+              "id": 17230
+            },
+            {
+              "name": "5.0 mph, speed walking",
+              "minSpeedMPH": -1,
+              "mets": 8,
+              "maxSpeedMPH": 5,
+              "id": 17231
+            },
+            {
+              "name": "Walking the dog",
+              "minSpeedMPH": -1,
+              "mets": 3,
+              "maxSpeedMPH": -1,
+              "id": 17165
+            }
+          ],
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walking for pleasure",
+          "mets": 3.5,
+          "id": 17160,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walking, grass track",
+          "mets": 5,
+          "id": 17260,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Walking, household",
+          "mets": 2,
+          "id": 17150,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Wii Games",
+      "id": 33,
+      "activities": [
+        {
+          "name": "Wii Baseball",
+          "mets": 3.200000047683716,
+          "id": 54011,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Bowling",
+          "mets": 2.799999952316284,
+          "id": 54003,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Boxing",
+          "mets": 4.800000190734863,
+          "id": 54004,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Fit Advanced Step",
+          "mets": 2.5,
+          "id": 54001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Fit Free Run",
+          "mets": 3.700000047683716,
+          "id": 54006,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Fit Free step",
+          "mets": 2.299999952316284,
+          "id": 54007,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Fit Island Run",
+          "mets": 3.700000047683716,
+          "id": 54009,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Fit Rhythm Boxing",
+          "mets": 2.799999952316284,
+          "id": 54005,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Fit Super Hula Hoop",
+          "mets": 2.5,
+          "id": 54002,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Golf",
+          "mets": 2.299999952316284,
+          "id": 54010,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Wii Tennis",
+          "mets": 3.700000047683716,
+          "id": 54008,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "XBOX Games",
+      "id": 35,
+      "activities": [
+        {
+          "name": "XBOX Sports - Baseball",
+          "mets": 3.200000047683716,
+          "id": 57001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "XBOX Sports - Darts",
+          "mets": 2.299999952316284,
+          "id": 57002,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "XBOX Sports - Football",
+          "mets": 3.700000047683716,
+          "id": 57004,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "XBOX Sports - Golf",
+          "mets": 2.299999952316284,
+          "id": 57003,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "XBOX Sports - Just Dance 3",
+          "mets": 2.799999952316284,
+          "id": 57007,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "XBOX Sports - Skiing",
+          "mets": 3.700000047683716,
+          "id": 57005,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "XBOX Sports - Tennis",
+          "mets": 3.700000047683716,
+          "id": 57006,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Yoga",
+      "id": 31,
+      "activities": [
+        {
+          "name": "Yoga",
+          "mets": 4.300000190734863,
+          "id": 52001,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Yoga, Bikram",
+          "mets": 5.900000095367432,
+          "id": 52002,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Yoga, Hatha",
+          "mets": 2.299999952316284,
+          "id": 52003,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Yoga, Power",
+          "mets": 4.300000190734863,
+          "id": 52004,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        },
+        {
+          "name": "Yoga, Vinyasa",
+          "mets": 7.300000190734863,
+          "id": 52005,
+          "hasSpeed": false,
+          "accessLevel": "PUBLIC"
+        }
+      ]
+    },
+    {
+      "name": "Custom",
+      "id": 34,
+      "activities": [
+        {
+          "name": "Aerobics, general (MyFitnessPal)",
+          "mets": 2.723489999771118,
+          "id": 9550739,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Circuit training, general (MyFitnessPal)",
+          "mets": 37.13850021362305,
+          "id": 8395453,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Custom Workout",
+          "mets": 1.9267300367355347,
+          "id": 10542577,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 01\/24\/2016",
+          "mets": -1,
+          "id": 17788899,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 02\/06\/2016",
+          "mets": -1,
+          "id": 18158482,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 02\/10\/2016",
+          "mets": -1,
+          "id": 18272537,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 09\/08\/2015",
+          "mets": 3.3235700130462646,
+          "id": 12043407,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 09\/27\/2015",
+          "mets": 1.273319959640503,
+          "id": 12350186,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 10\/03\/2015",
+          "mets": 0.618973970413208,
+          "id": 12435386,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 11\/18\/2015",
+          "mets": -1,
+          "id": 13061941,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 12\/12\/2015",
+          "mets": -1,
+          "id": 16646025,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Fiddur's Workout for 12\/20\/2015",
+          "mets": -1,
+          "id": 16728826,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "My Workout for 2016-01-31",
+          "mets": -1,
+          "id": 17986765,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Running (jogging), 5 mph (12 min mile) (MyFitnessPal)",
+          "mets": 10.191399574279785,
+          "id": 9322800,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Running (jogging), 5.2 mph (11.5 min mile) (MyFitnessPal)",
+          "mets": 10.467900276184082,
+          "id": 9499225,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Running (jogging), 6 mph (10 min mile) (MyFitnessPal)",
+          "mets": 13.04800033569336,
+          "id": 8951182,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Running (jogging), 6.7 mph (9 min mile) (MyFitnessPal)",
+          "mets": 12.800399780273438,
+          "id": 8571825,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Strength training (weight lifting, weight training) (MyFitnessPal)",
+          "mets": 3.2336599826812744,
+          "id": 9131314,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        },
+        {
+          "name": "Walking, 3.0 mph, mod. pace (MyFitnessPal)",
+          "mets": 6.735770225524902,
+          "id": 8907316,
+          "hasSpeed": false,
+          "accessLevel": "PRIVATE"
+        }
+      ]
+    }
+  ]
+}

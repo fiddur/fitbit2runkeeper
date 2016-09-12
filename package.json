@@ -2,7 +2,9 @@
   "name": "fitbit2runkeeper",
   "version": "0.0.1",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint .",
+    "test": "eslint ."
   },
   "dependencies": {
     "asyncawait": "^1.0.3",
@@ -16,11 +18,18 @@
     "passport-fitbit-oauth2": "^1.0.1",
     "passport-runkeeper": "^0.1.2",
     "request-promise": "^2.0.1",
-    "simple-oauth2": "*"
+    "simple-oauth2": "*",
+    "tcx-js": "^0.1.2"
   },
   "description": "Fitbit → Runkeeper syncer",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fiddur/fitbit2runkeeper.git"
