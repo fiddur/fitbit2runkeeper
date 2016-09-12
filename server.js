@@ -140,8 +140,8 @@ app.get('/', (req, res) => {
   }
 })
 
-const getFromFitbit = require('./lib/getFromFitbit')(rp)
-const getFitbitTcx  = require('./lib/getFbTcx')(rp, config.fitbit)
+const getFromFitbit = require('./lib/getFromFitbit')(rp, config.fitbit)
+const getFitbitTcx  = require('./lib/getFbTcx')(rp)
 const convertFb2Hg  = require('./lib/convertFb2Hg')(cache)
 
 app.get(
@@ -149,7 +149,7 @@ app.get(
     console.log('Logged in', req.user)
 
     const activitiesUrl =
-          `https://api.fitbit.com/1/user/-/activities/list.json?beforeDate=${moment().format('YYYY-MM-DD')}&sort=desc&limit=10&offset=0`
+          `https://api.fitbit.com/1/user/-/activities/list.json?beforeDate=${moment().add(1, 'd').format('YYYY-MM-DD')}&sort=desc&limit=10&offset=0`
 
     const data = aawait(getFromFitbit(activitiesUrl, accounts.fitbit[req.user.accounts.fitbit]))
 
