@@ -82,7 +82,7 @@ passport.use(new FitbitStrategy(
   {
     clientID:          config.fitbit.clientID,
     clientSecret:      config.fitbit.clientSecret,
-    callbackURL:       'http://localhost:3000/auth/fitbit/callback',
+    callbackURL:       `http://${config.server.host}:${config.server.port}/auth/fitbit/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
@@ -104,7 +104,7 @@ passport.use(new RunKeeperStrategy(
   {
     clientID:          config.runkeeper.clientID,
     clientSecret:      config.runkeeper.clientSecret,
-    callbackURL:       'http://localhost:3000/auth/runkeeper/callback',
+    callbackURL:       `http://${config.server.host}:${config.server.port}/auth/runkeeper/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
@@ -161,7 +161,7 @@ app.get(
 )
 
 app.get('/fitbit/tcx/:logId', aasync((req, res) => {
-  res.send(getFitbitTcx(accounts.fitbit[req.user.accounts.fitbit])(req.params.logId))
+  res.send(aawait(getFitbitTcx(accounts.fitbit[req.user.accounts.fitbit])(req.params.logId)))
 }))
 
 app.get('/fitbit/cp/:logId', aasync((req, res) => {
@@ -175,7 +175,7 @@ app.get('/fitbit/cp/:logId', aasync((req, res) => {
   const runkeeperAccess =
         accounts.runkeeper[req.user.accounts.runkeeper].accessToken
 
-  aawait(rp({
+  const response = aawait(rp({
     uri:     runkeeperUri,
     method:  'POST',
     json:    true,
@@ -194,6 +194,6 @@ app.use((err, req, res, next) => {
   res.status(500).send(err.message)
 })
 
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!')
+app.listen(config.server.port, () => {
+  console.log(`Fitbit2runkeeper listening on port ${config.server.port}!`)
 })
