@@ -9,7 +9,8 @@ api beta feature that might be broken in the future:
 https://dev.fitbit.com/docs/activity/#get-activity-logs-list
 
 This is Work In Progress, but can export a fitbit activity to runkeeper,
-currently only tried (successfully) with runs that have GPS and heart rate.
+currently tried (successfully) with runs that have GPS and heart rate as well
+as auto-tracked "Sports" activity.
 
 
 Install
