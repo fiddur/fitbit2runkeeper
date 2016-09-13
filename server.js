@@ -23,7 +23,7 @@ const config = {
   },
   server: {
     host:     process.env.SERVER_HOST,
-    port:     process.env.SERVER_PORT,
+    port:     parseInt(process.env.SERVER_PORT, 10),
     protocol: process.env.SERVER_PROTOCOL,
   },
 }
