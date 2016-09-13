@@ -23,10 +23,12 @@ const config = {
   },
   server: {
     host:     process.env.SERVER_HOST,
-    port:     process.env.PORT,
+    port:     process.env.SERVER_PORT,
     protocol: process.env.SERVER_PROTOCOL,
   },
 }
+const portStr = config.server.port === 80 ? '' : `:${config.server.port}`
+config.server.full = `${config.server.protocol}://${config.server.host}${portStr}`
 
 const cache = {}
 
@@ -96,7 +98,7 @@ passport.use(new FitbitStrategy(
   {
     clientID:          config.fitbit.clientID,
     clientSecret:      config.fitbit.clientSecret,
-    callbackURL:       `${config.server.protocol}://${config.server.host}:${config.server.port}/auth/fitbit/callback`,
+    callbackURL:       `${config.server.full}/auth/fitbit/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
@@ -118,7 +120,7 @@ passport.use(new RunKeeperStrategy(
   {
     clientID:          config.runkeeper.clientID,
     clientSecret:      config.runkeeper.clientSecret,
-    callbackURL:       `${config.server.protocol}://${config.server.host}:${config.server.port}/auth/runkeeper/callback`,
+    callbackURL:       `${config.server.full}/auth/runkeeper/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
@@ -208,6 +210,6 @@ app.use((err, req, res, next) => {
   res.status(500).send(err.message)
 })
 
-app.listen(config.server.port, () => {
-  console.log(`Fitbit2runkeeper listening on port ${config.server.port}!`)
+app.listen(process.env.PORT || 3000, () => {
+  console.log(`Fitbit2runkeeper listening on port ${process.env.PORT || 3000}!`)
 })
