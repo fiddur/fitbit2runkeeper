@@ -22,8 +22,9 @@ const config = {
     clientSecret: process.env.RUNKEEPER_SECRET,
   },
   server: {
-    host: process.env.SERVER_HOST,
-    port: process.env.PORT,
+    host:     process.env.SERVER_HOST,
+    port:     process.env.PORT,
+    protocol: process.env.SERVER_PROTOCOL,
   },
 }
 
@@ -95,7 +96,7 @@ passport.use(new FitbitStrategy(
   {
     clientID:          config.fitbit.clientID,
     clientSecret:      config.fitbit.clientSecret,
-    callbackURL:       `http://${config.server.host}:${config.server.port}/auth/fitbit/callback`,
+    callbackURL:       `${server.config.protocol}://${config.server.host}:${config.server.port}/auth/fitbit/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
@@ -117,7 +118,7 @@ passport.use(new RunKeeperStrategy(
   {
     clientID:          config.runkeeper.clientID,
     clientSecret:      config.runkeeper.clientSecret,
-    callbackURL:       `http://${config.server.host}:${config.server.port}/auth/runkeeper/callback`,
+    callbackURL:       `${server.config.protocol}://${config.server.host}:${config.server.port}/auth/runkeeper/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
