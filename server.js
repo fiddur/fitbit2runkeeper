@@ -96,7 +96,7 @@ passport.use(new FitbitStrategy(
   {
     clientID:          config.fitbit.clientID,
     clientSecret:      config.fitbit.clientSecret,
-    callbackURL:       `${server.config.protocol}://${config.server.host}:${config.server.port}/auth/fitbit/callback`,
+    callbackURL:       `${config.server.protocol}://${config.server.host}:${config.server.port}/auth/fitbit/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
@@ -118,7 +118,7 @@ passport.use(new RunKeeperStrategy(
   {
     clientID:          config.runkeeper.clientID,
     clientSecret:      config.runkeeper.clientSecret,
-    callbackURL:       `${server.config.protocol}://${config.server.host}:${config.server.port}/auth/runkeeper/callback`,
+    callbackURL:       `${config.server.protocol}://${config.server.host}:${config.server.port}/auth/runkeeper/callback`,
     passReqToCallback: true,
   },
   onAuthenticated
