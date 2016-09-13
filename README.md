@@ -22,8 +22,6 @@ heart rate series.
 ```bash
 npm install
 cp config.json.sample config.json ; and edit…
-mkdir data
-touch data/users.json data/accounts.json
 npm start
 ```
 

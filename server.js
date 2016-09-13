@@ -12,7 +12,20 @@ const uuid              = require('node-uuid')
 const rp                = require('request-promise')
 const moment            = require('moment')
 
-const config = require('./config.json')
+const config = {
+  fitbit: {
+    clientID:     process.env.FITBIT_CLIENTID,
+    clientSecret: process.env.FITBIT_SECRET,
+  },
+  runkeeper: {
+    clientID:     process.env.RUNKEEPER_CLIENTID,
+    clientSecret: process.env.RUNKEEPER_SECRET,
+  },
+  server: {
+    host: process.env.SERVER_HOST,
+    port: process.env.PORT,
+  },
+}
 
 const cache = {}
 

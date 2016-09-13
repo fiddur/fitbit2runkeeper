@@ -1,10 +1,14 @@
 {
   "name": "fitbit2runkeeper",
   "version": "0.0.1",
+  "engines": {
+    "node": "6"
+  },
   "scripts": {
     "start": "node server.js",
     "lint": "eslint .",
-    "test": "eslint ."
+    "test": "eslint .",
+    "postinstall": "make"
   },
   "dependencies": {
     "asyncawait": "^1.0.3",
