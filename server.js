@@ -64,6 +64,9 @@ const addAccount  = (profile, userId, accessToken, refreshToken) => {
   fs.writeFileSync('data/accounts.json', JSON.stringify(accounts))
 }
 const updateAccount = (profile, accessToken, refreshToken) => {
+  if (accounts[profile.provider] === undefined) accounts[profile.provider] = {}
+  accounts[profile.provider][profile.id] = profile
+
   accounts[profile.provider][profile.id].accessToken = accessToken
   accounts[profile.provider][profile.id].refreshToken = refreshToken
   fs.writeFileSync('data/accounts.json', JSON.stringify(accounts))

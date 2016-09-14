@@ -12,7 +12,7 @@ module.exports = {
     'key-spacing': ['error', {'align': 'value'}],
     'no-nested-ternary': 0,
     'no-console': 0,
-    'no-unused-vars': [
-      'error', { argsIgnorePattern: 'next' }]
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
+    'arrow-parens': ['error', 'as-needed'],
   },
 }

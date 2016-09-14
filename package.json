@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "asyncawait": "^1.0.3",
+    "bluebird": "^3.4.6",
     "cookie-parser": "^1.3.5",
     "cookie-session": "^1.2.0",
     "express": "^4.13.4",
@@ -23,7 +24,7 @@
     "passport-runkeeper": "^0.1.2",
     "request-promise": "^2.0.1",
     "simple-oauth2": "*",
-    "tcx-js": "^0.1.2"
+    "xml2js": "^0.4.17"
   },
   "description": "Fitbit → Runkeeper syncer",
   "main": "server.js",

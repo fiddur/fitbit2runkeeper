@@ -38,9 +38,11 @@ Usage right now
 Todo
 ----
 
+* Fix runkeeper user handling.
+* Don't mark every km as pause/resume just because fitbit makes laps of them.
 * Make sync automatic (requires publishing to public endpoint)
 * Factor out authentication from `server.js`
-* Fix user/account/login handling
+* Fix user/account/login handling (a db backend perhaps)
 
 
 License ([GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html))
