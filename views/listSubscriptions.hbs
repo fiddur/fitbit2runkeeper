@@ -1,0 +1,9 @@
+<h2>Listing Fitbit API subscriptions</h2>
+
+{{#subscriptions}}
+  <p>You are subscribed to new activities.  Just do your exercises! {{.}}</p>
+{{/subscriptions}}
+
+{{^subscriptions}}
+  <p>You are not subscribed to new activities… <a href="subscribe">Subscribe</a></p>
+{{/subscriptions}}

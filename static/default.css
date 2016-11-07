@@ -1,6 +1,7 @@
 body {
   max-width: 55em;
   margin: 0 auto;
+  padding: 1ex;
 }
 
 .repo_info {

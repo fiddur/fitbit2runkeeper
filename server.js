@@ -9,8 +9,9 @@ const config = {
     secret: process.env.COOKIE_SECRET,
   },
   fitbit: {
-    clientID:     process.env.FITBIT_CLIENTID,
-    clientSecret: process.env.FITBIT_SECRET,
+    clientID:         process.env.FITBIT_CLIENTID,
+    clientSecret:     process.env.FITBIT_SECRET,
+    verificationCode: process.env.FITBIT_VERIFICATIONCODE,
   },
   mongo: {
     uri: process.env.MONGODB_URI,
