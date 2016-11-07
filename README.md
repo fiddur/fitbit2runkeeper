@@ -1,8 +1,8 @@
 Fitbit → Runkeeper syncer
 ==========================
 
-This program will, when more ready, take activities in Runkeeper and add heartrate series from
-Fitbit (e.g. HR or Surge).
+This program will, when more ready, take activities in Runkeeper and add
+heartrate series from Fitbit (e.g. HR or Surge).
 
 This project requires both Fitbit and Runkeeper API keys, and is using a fitbit
 api beta feature that might be broken in the future:
@@ -13,8 +13,8 @@ currently tried (successfully) with runs that have GPS and heart rate as well
 as auto-tracked "Sports" activity.
 
 
-Install
--------
+Install and run
+---------------
 
 To get this to work you need Fitbit personal API or partner API, otherwise you can't get intraday
 heart rate series.
@@ -48,11 +48,9 @@ Usage right now
 Todo
 ----
 
-* Fix runkeeper user handling.
 * Don't mark every km as pause/resume just because fitbit makes laps of them.
-* Make sync automatic (requires publishing to public endpoint)
-* Factor out authentication from `server.js`
-* Fix user/account/login handling (a db backend perhaps)
+* Make sync automatic.
+* Factor out authentication from `app.js`
 
 
 License ([GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html))
@@ -60,12 +58,13 @@ License ([GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html))
 
 Copyright (C) 2015 Fredrik Liljegren <fredrik@liljegren.org>
 
-Some Comments is free software: you can redistribute it and/or modify it under the terms of the GNU
-Affero General Public License as published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.
+Fitbit2Runkeeper is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your option)
+any later version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
-even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-Affero General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
 See COPYING.

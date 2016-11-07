@@ -1,0 +1,42 @@
+<h1>Sync Fitbit -> Runkeeper</h1>
+
+<p>
+  {{#user}}
+    Welcome.  You are logged in.  User id {{id}}.
+  {{/user}}
+  {{^user}}
+    You are not logged in.  Connect Fitbit and Runkeeper to sync activities.
+  {{/user}}
+</p>
+
+<ul>
+  <li>
+    Fitbit:
+    {{#user.accounts.fitbit}}
+      Connected as {{profile.displayName}}.
+    {{/user.accounts.fitbit}}
+    {{^user.accounts.fitbit}}
+      <a href="/auth/fitbit">Connect FitBit</a><br/>
+    {{/user.accounts.fitbit}}
+  </li>
+  <li>
+    Fitbit:
+    {{#user.accounts.runkeeper}}
+      Connected as {{profile.id}}.
+    {{/user.accounts.runkeeper}}
+    {{^user.accounts.runkeeper}}
+      <a href="/auth/runkeeper">Connect Runkeeper</a><br/>
+    {{/user.accounts.runkeeper}}
+  </li>
+</ul>
+
+<ul>
+  <li><a href="/home">List fitbit activities</a></li>
+  <li>TODO: Check/setup listener to new activities…</li>
+</ul>
+
+
+<p>
+  This is a hobby project to sync Fitbit activities to Runkeeper.  It is run on
+  a free plan on <a href="http://herokuapp.com/">Heroku</a>
+</p>
