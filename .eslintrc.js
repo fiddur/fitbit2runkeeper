@@ -10,6 +10,7 @@ module.exports = {
     'semi': ['error', 'never'],
     'no-multi-spaces': 0,
     'key-spacing': ['error', {'align': 'value'}],
+    'new-cap': 0,
     'no-nested-ternary': 0,
     'no-console': 0,
     'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],

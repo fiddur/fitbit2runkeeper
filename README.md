@@ -21,7 +21,17 @@ heart rate series.
 
 ```bash
 npm install
-cp config.json.sample config.json ; and edit…
+
+FITBIT_CLIENTID=... \
+FITBIT_SECRET=... \
+RUNKEEPER_CLIENTID=... \
+RUNKEEPER_SECRET=... \
+SERVER_HOST=example.net \
+SERVER_PORT=3000 \
+SERVER_PROTOCOL=http \
+PORT=3000 \
+MONGODB_URI=mongodb://user:pass@example.net/fitbit2runkeeper \
+COOKIE_SECRET=secret \
 npm start
 ```
 
