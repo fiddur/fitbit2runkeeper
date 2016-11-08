@@ -42,7 +42,7 @@ Usage right now
 
 * Visit localhost.
 * Connect both fitbit and runkeeper.
-* Go to `/home`
+* List subscriptions to activate automatic sync.
 * Click the fitbit activity's logId to export it to runkeeper.
 
 
@@ -50,7 +50,7 @@ Todo
 ----
 
 * Don't mark every km as pause/resume just because fitbit makes laps of them.
-* Make sync automatic.
+* Make subscription automatic on first fitbit auth.
 * Factor out authentication from `app.js`
 
 
