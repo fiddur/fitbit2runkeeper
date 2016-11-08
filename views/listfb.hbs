@@ -7,11 +7,16 @@
 <table>
   {{#activities}}
     <tr>
-      <td><a href="/fitbit/cp/{{logId}}">{{logId}}</a></td>
+      <td>
+        {{^exported}}<a href="/fitbit/cp/{{logId}}">{{/exported}}
+          {{logId}}
+        {{^exported}}</a>{{/exported}}
+      </td>
       <td>{{startTime}}</td>
       <td>{{logType}}</td>
       <td>{{activityName}}</td>
       <td><a href="/fitbit/tcx/{{logId}}">{{tcxLink}}</a></td>
+      <td>{{#exported}}Exported at {{timestamp}}{{/exported}}</td>
     </tr>
   {{/activities}}
 </table>
