@@ -1,5 +1,5 @@
-Fitbit → Runkeeper syncer
-==========================
+ActivitySyncer, syncing Fitbit activities to Runkeeper
+======================================================
 
 This program will, when more ready, take activities in Runkeeper and add
 heartrate series from Fitbit (e.g. HR or Surge).
