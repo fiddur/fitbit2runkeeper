@@ -52,6 +52,8 @@ Todo
 * Don't mark every km as pause/resume just because fitbit makes laps of them.
 * Make subscription automatic on first fitbit auth.
 * Factor out authentication from `app.js`
+* Add setting for syncing from `tracker`, `manual`, and/or `auto_detected`.
+* Recognise activities at Runkeeper even if they are not exported from here.
 
 
 License ([GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html))
