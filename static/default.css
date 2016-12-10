@@ -18,3 +18,7 @@ body {
   text-decoration: none;
   color: black;
 }
+
+dt {
+  font-weight: bold;
+}
